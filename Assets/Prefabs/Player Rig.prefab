@@ -112,7 +112,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 87
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -205,9 +205,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.07
       objectReference: {fileID: 0}
+    - target: {fileID: 2488980275620120253, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488980275620120253, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.21327776
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488980275620120253, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.9433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488980275620120253, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.08365962
+      objectReference: {fileID: 0}
+    - target: {fileID: 3382631614060556016, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: m_Name
+      value: Laser Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626070676994703873, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4626070676994703873, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496710541030304332, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
+      propertyPath: m_Name
+      value: Laser Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 206dc24d514cdd146a07be8e731a56e9, type: 3}
