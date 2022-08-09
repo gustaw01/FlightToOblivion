@@ -222,6 +222,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1284588294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5378623530131463293, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+  m_PrefabInstance: {fileID: 498923772258892419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1304404104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2890480832502257857, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+  m_PrefabInstance: {fileID: 498923772258892419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1605788695
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,45 +416,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 498923773174749168, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: field of view
-      value: 70
+    - target: {fileID: 498923773742658294, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2622830943882195084, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: moveWithTransform
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2622830943882195084, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.21327776
-      objectReference: {fileID: 0}
-    - target: {fileID: 2622830943882195084, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.9433962
-      objectReference: {fileID: 0}
-    - target: {fileID: 2622830943882195084, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.08365962
-      objectReference: {fileID: 0}
-    - target: {fileID: 2890480832502257857, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: m_Name
-      value: Laser Left
-      objectReference: {fileID: 0}
-    - target: {fileID: 5106961314917676080, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: lengthInSec
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5106961314917676080, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: moveWithTransform
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5106961314917676080, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: TrailModule.lifetime.scalar
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 5378623530131463293, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
-      propertyPath: m_Name
-      value: Laser Right
-      objectReference: {fileID: 0}
+    - target: {fileID: 498923773742658294, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1284588294}
+    - target: {fileID: 498923773742658294, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 1304404104}
+    - target: {fileID: 498923773742658294, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+      propertyPath: lasers.Array.data[2]
+      value: 
+      objectReference: {fileID: 1304404104}
+    - target: {fileID: 498923773742658294, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
+      propertyPath: lasers.Array.data[3]
+      value: 
+      objectReference: {fileID: 1304404104}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdb58d1db2e078749aef7b3bd7c920c6, type: 3}
