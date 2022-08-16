@@ -1,2 +1,2 @@
 # FlightToOblivion
-Plane shooter made with unity.
+Ship shooter made with unity.
