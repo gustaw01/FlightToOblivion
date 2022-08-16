@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour
 {
-    void OnCollisionEnter(Collision other) {
-        Debug.Log(this.name + " collided with " + other.gameObject.name);   
-    }
+    [SerializeField] float delayTime = 1f;
+
+    bool isTransitioning = false;
+    bool isCollisionDiabled = false;
 
     void OnTriggerEnter(Collider other) {
-        Debug.Log($"{this.name} **Triggered bt** {other.gameObject.name}");
-    }
+        if (isTransitioning || isCollisionDiabled) { return; }
+        isTransitioning = true;
+        GetComponent<Movement>().enabled = false;
+        }
 }
