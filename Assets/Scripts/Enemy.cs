@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 
     [SerializeField] GameObject deathVFX;
     [SerializeField] Transform parent;
-    [SerializeField] int pointsToScore = 1;
+    [SerializeField] int pointsToScore = 50;
 
     ScoreBoard scoreBoard;
 
