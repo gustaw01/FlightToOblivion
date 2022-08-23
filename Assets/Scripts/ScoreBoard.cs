@@ -16,10 +16,6 @@ public class ScoreBoard : MonoBehaviour
     public void IncreaseScore(int amountToIncerase)
     {
         score += amountToIncerase;
-    }
-
-    public void ShowScore()
-    {
         scoreText.text = score.ToString();
     }
 }

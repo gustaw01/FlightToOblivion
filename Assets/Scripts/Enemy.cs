@@ -34,7 +34,6 @@ public class Enemy : MonoBehaviour
     private void KillEnemy()
     {
         scoreBoard.IncreaseScore(pointsToScore);
-        scoreBoard.ShowScore();
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);
