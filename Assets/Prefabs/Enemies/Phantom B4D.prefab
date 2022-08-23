@@ -606,6 +606,7 @@ GameObject:
   - component: {fileID: 6082236206464794898}
   - component: {fileID: 6074270371276784982}
   - component: {fileID: 3425500353989554749}
+  - component: {fileID: 407370299531460768}
   m_Layer: 0
   m_Name: Phantom B4D
   m_TagString: Untagged
@@ -695,6 +696,19 @@ MonoBehaviour:
   hitVFX: {fileID: 4321034373224312284, guid: 2b2774ab35139164789a1b98bb36484d, type: 3}
   pointsToScore: 150
   hitPoints: 50
+--- !u!65 &407370299531460768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6059720416658425956}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.115113, y: 2.7828712, z: 10.850533}
+  m_Center: {x: 0, y: -0.000013887882, z: 0.0000026226044}
 --- !u!1 &6433323439423411167
 GameObject:
   m_ObjectHideFlags: 0

@@ -373,6 +373,7 @@ GameObject:
   - component: {fileID: 7591374625808693332}
   - component: {fileID: 5673704616218152094}
   - component: {fileID: 7548817037791790700}
+  - component: {fileID: 370203933776423327}
   m_Layer: 0
   m_Name: Lurker GO75
   m_TagString: Untagged
@@ -462,6 +463,19 @@ MonoBehaviour:
   hitVFX: {fileID: 4321034373224312284, guid: 2b2774ab35139164789a1b98bb36484d, type: 3}
   pointsToScore: 25
   hitPoints: 2
+--- !u!65 &370203933776423327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6178358393649163595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.147294, y: 3.2459185, z: 10.599532}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6598541239961924412
 GameObject:
   m_ObjectHideFlags: 0
