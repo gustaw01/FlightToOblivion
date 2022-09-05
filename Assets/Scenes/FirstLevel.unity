@@ -554,6 +554,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1339265072756264056, guid: bcbb842372981fc48914a16948344cca, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 48.987
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339265072756264056, guid: bcbb842372981fc48914a16948344cca, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -192.56
+      objectReference: {fileID: 0}
     - target: {fileID: 5417854277264735437, guid: bcbb842372981fc48914a16948344cca, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -646,7 +654,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: bcbb842372981fc48914a16948344cca, type: 3}
 --- !u!1 &1048236072 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6095368243777774023, guid: bcbb842372981fc48914a16948344cca, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3327624453727158612, guid: bcbb842372981fc48914a16948344cca, type: 3}
   m_PrefabInstance: {fileID: 1048236071}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1303158876 stripped
@@ -876,8 +884,9 @@ PlayableDirector:
   m_ExposedReferences:
     m_References:
     - 7af3c60e9f3c08e4ab30e0e83c7919ef: {fileID: 1922529284}
+    - 83a1f96d900d9fa468742e63bafb96fb: {fileID: 0}
     - 6c2b94bd7fbd9e14f9c8189888903efe: {fileID: 714501120}
-    - b290cba1d30aba14894a7993fc856d76: {fileID: 1048236072}
+    - b290cba1d30aba14894a7993fc856d76: {fileID: 0}
     - 1b531a21a0fd1404ab1db0a9b4c4b97e: {fileID: 1303158876}
     - 8d4e1f6c56b0f2047bf95e650117d496: {fileID: 1444080603}
     - 85741f53f07e4354f8a98a47c6b4850d: {fileID: 1979797144}
@@ -885,6 +894,7 @@ PlayableDirector:
     - b3159ee1cd1f6874091d87bcb734dde6: {fileID: 714501120}
     - 9e95717f331857548881fa6ae7a044db: {fileID: 1360203906}
     - dd210a0b1bae31a48a006e0859392ec2: {fileID: 1444080603}
+    - f420541731c50b2499bb2329f05ed187: {fileID: 1048236072}
     - 267887bcb2a18c343bd06a9dc7167fb1: {fileID: 804728505}
     - 5468799a615fe1f49b28a4edc51d6e61: {fileID: 312671789}
     - 9757fe78db8c6744d8d7bbd5352c13ac: {fileID: 1444080603}
